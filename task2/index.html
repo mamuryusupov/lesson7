@@ -7,12 +7,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
 
     <style>
+        li {
+            margin-bottom: 16px;
+        }
+        
         ul>li:first-child>span {
             background-color: red;
             color: white;
         }
         
-        li:last-child>span {
+        ul>li:last-child>span {
             color: white;
             background-color: black;
         }
@@ -23,6 +27,10 @@
         
         li:nth-child(even) {
             margin-left: 16px;
+        }
+        
+        .paragraphs p:nth-child(odd) {
+            background-color: gray;
         }
     </style>
 </head>
